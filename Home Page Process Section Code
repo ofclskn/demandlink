@@ -1,0 +1,67 @@
+<section id="process" class="pad process">
+  <div class="container">
+
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Our Process</p>
+      <h2>A Lead Journey That<br><span class="text-primary">Optimizes Your Objectives</span></h2>
+      <p>Most vendors design their lead process for their own business goals without much consideration to yours. Ours is built to improve the metrics that matter to you.</p>
+    </div>
+
+    <div class="steps">
+
+      <div class="step" data-reveal data-reveal-delay="0">
+        <span class="line"></span>
+        <span class="badge">1</span>
+        <div class="content">
+          <h3>Lead Generation</h3>
+          <p>We generate leads through paid media campaigns we own and operate, not through third-party aggregators. You always know exactly where your leads came from and how they entered the funnel.</p>
+        </div>
+      </div>
+
+      <div class="step" data-reveal data-reveal-delay="80">
+        <span class="line"></span>
+        <span class="badge">2</span>
+        <div class="content">
+          <h3>Custom Confirmation Page</h3>
+          <p>As soon as a homeowner submits, they're introduced to your company by name and directed to your work and credibility assets. By the time your sales rep calls, they expect to hear from you.</p>
+        </div>
+      </div>
+
+      <div class="step" data-reveal data-reveal-delay="160">
+        <span class="line"></span>
+        <span class="badge">3</span>
+        <div class="content">
+          <h3>Real Time Delivery</h3>
+          <p>Leads are delivered to your CRM the moment they submit. No delays or batching. Your team follows up while interest is highest, increasing contact rates and booking on the first conversation.</p>
+        </div>
+      </div>
+
+      <div class="step handoff" data-reveal data-reveal-delay="240">
+        <span class="line"></span>
+        <span class="badge">4</span>
+        <div class="content">
+          <h3>Your Team Works the Lead</h3>
+          <p>Your team connects while intent is high, books an appointment and works the lead towards a booked job.</p>
+        </div>
+      </div>
+
+      <div class="step" data-reveal data-reveal-delay="320">
+        <span class="line"></span>
+        <span class="badge">5</span>
+        <div class="content">
+          <h3>Nurturing Sequences</h3>
+          <p>While your team works the deal, we keep reinforcing your credibility through email. Reviews, past work and educational content delivered as a trusted third-party voice to move the homeowner closer to a decision.</p>
+        </div>
+      </div>
+
+      <div class="step finale" data-reveal data-reveal-delay="400">
+        <span class="line"></span>
+        <span class="badge">6</span>
+        <div class="content">
+          <h3>Deal Closed!</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
