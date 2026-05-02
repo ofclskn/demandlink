@@ -1,0 +1,111 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  --brand-blue:#2563d9;
+  --brand-deep-blue:#2b3aa0;
+  --brand-light-yellow:#f7f5ee;
+  --brand-dark-gray:#1f1f1f;
+  --muted:#6b6b6b;
+  --card:#fff;
+  --border:#e5e5e5;
+  --shadow-elegant:0 20px 60px -20px rgba(15,23,42,.25);
+  --font-display:"Figtree",system-ui,sans-serif;
+  --font-sans:"Inter",system-ui,sans-serif;
+  --bg:var(--brand-light-yellow);
+  --fg:var(--brand-dark-gray);
+}
+header.site{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:4rem}
+.brand{display:flex;align-items:center;gap:.5rem;font-family:var(--font-display);font-weight:700;font-size:1.125rem;color:var(--fg);text-decoration:none}
+.brand .logo{width:2rem;height:2rem;border-radius:.4rem;overflow:hidden;flex-shrink:0}
+.brand .logo img{width:100%;height:100%;object-fit:contain;display:block}
+.nav-links{display:none;gap:1.5rem;list-style:none}
+.nav-links a{font-size:.875rem;color:var(--muted);font-weight:500;transition:color .2s;font-family:var(--font-sans);text-decoration:none}
+.nav-links a:hover{color:var(--fg)}
+.nav-actions{display:none;gap:.75rem;align-items:center}
+.menu-btn{display:grid;place-items:center;width:2.5rem;height:2.5rem;border:1px solid var(--border);border-radius:.4rem;background:var(--card);cursor:pointer;color:var(--fg)}
+.mobile-actions{display:flex;gap:.5rem;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;height:2.75rem;padding:0 2rem;border-radius:.5rem;font-weight:500;font-size:.95rem;transition:all .2s;font-family:var(--font-sans);text-decoration:none;cursor:pointer;border:0}
+.btn-primary{background:var(--brand-blue);color:#fff;box-shadow:var(--shadow-elegant)}
+.btn-primary:hover{background:var(--brand-deep-blue);transform:translateY(-2px);color:#fff}
+.btn-outline{border:1px solid var(--brand-blue);color:var(--brand-blue);background:var(--card);height:2.25rem;padding:0 1rem;font-size:.875rem}
+.btn-outline:hover{background:var(--brand-blue);color:#fff}
+.btn-sm{height:2rem;padding:0 .9rem;font-size:.8rem}
+.container{max-width:72rem;margin:0 auto;padding:0 1rem}
+@media(min-width:768px){
+  .nav-links{display:flex}
+  .nav-actions{display:flex}
+  .mobile-actions{display:none}
+}
+@media(min-width:1024px){.nav-links{gap:2rem}}
+.mobile-menu{display:none;border-top:1px solid var(--border);background:var(--bg)}
+.mobile-menu.open{display:block}
+.mobile-menu .inner{display:flex;flex-direction:column;gap:.25rem;padding:.75rem 1rem}
+.mobile-menu .inner a{padding:.5rem .75rem;border-radius:.4rem;font-size:.9rem;color:var(--muted);font-family:var(--font-sans);display:block;text-decoration:none}
+.mobile-menu .inner a:hover{background:#eee;color:var(--fg)}
+</style>
+
+<header class="site">
+  <div class="container nav">
+
+    <a href="/" class="brand">
+      <span class="logo">
+        <img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69f016ad717d5dd4e18fb841.png" alt="DemandLink logo" />
+      </span>
+      <span>DemandLink</span>
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/#hero">Home</a></li>
+        <li><a href="/#difference">Difference</a></li>
+        <li><a href="/#process">Process</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-outline" href="tel:9452153805">945-215-3805</a>
+      <a class="btn btn-primary btn-sm" href="/#contact">Get a Proposal</a>
+    </div>
+
+    <div class="mobile-actions">
+      <a class="btn btn-primary btn-sm" href="/#contact">Get a Proposal</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
+          <path d="M1 1h16M1 7h16M1 13h16" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="inner">
+      <a href="/#hero">Home</a>
+      <a href="/#difference">Difference</a>
+      <a href="/#process">Process</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/#contact">Contact</a>
+      <a class="btn btn-outline" href="tel:9452153805" style="margin-top:.5rem;display:inline-flex">945-215-3805</a>
+    </div>
+  </div>
+</header>
+
+<script>
+(function(){
+  var btn = document.getElementById('menuBtn');
+  var menu = document.getElementById('mobileMenu');
+  if(!btn || !menu) return;
+  btn.addEventListener('click', function(){
+    menu.classList.toggle('open');
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      menu.classList.remove('open');
+    });
+  });
+})();
+</script>
