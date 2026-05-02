@@ -1,0 +1,34 @@
+<section class="crm-section">
+  <div class="container">
+    <h2>Get your leads straight to<br><span class="text-primary">your CRM in real time</span></h2>
+    <div class="crm-track-wrap">
+      <div class="crm-track">
+
+        <!-- Set 1 -->
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dfd80b446d0fb90fd71.png" alt="Salesforce"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0deb109243d2cce11760.png" alt="HubSpot"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dd8243975ecf7281859.png" alt="JobNimbus"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dab2b7a6ecd79aa4314.png" alt="Pipedrive"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dc1109243d2cce10e4a.png" alt="Zoho"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e1180b446d0fb9102ce.png" alt="MarketSharp"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0d8c109243d2cce1017f.png" alt="Acculynx"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e2180b446d0fb91063f.png" alt="Leap"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e3b2b7a6ecd79aa62d4.png" alt="ImproveIt 360"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e4b80b446d0fb910db7.png" alt="LeadPerfect"></div>
+
+        <!-- Set 2 — duplicate for seamless loop -->
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dfd80b446d0fb90fd71.png" alt="Salesforce"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0deb109243d2cce11760.png" alt="HubSpot"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dd8243975ecf7281859.png" alt="JobNimbus"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dab2b7a6ecd79aa4314.png" alt="Pipedrive"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0dc1109243d2cce10e4a.png" alt="Zoho"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e1180b446d0fb9102ce.png" alt="MarketSharp"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0d8c109243d2cce1017f.png" alt="Acculynx"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e2180b446d0fb91063f.png" alt="Leap"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e3b2b7a6ecd79aa62d4.png" alt="ImproveIt 360"></div>
+        <div class="crm-item"><img src="https://assets.cdn.filesafe.space/RabPQprM9NSNNaG5WW2R/media/69df0e4b80b446d0fb910db7.png" alt="LeadPerfect"></div>
+
+      </div>
+    </div>
+  </div>
+</section>
