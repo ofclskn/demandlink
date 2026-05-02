@@ -1,0 +1,59 @@
+<section id="faq" class="pad">
+  <div class="container-sm">
+
+    <h2 data-reveal style="text-align:center;font-size:1.875rem;font-weight:700">Frequently Asked Questions</h2>
+
+    <div class="faq-list" id="faqList">
+
+      <div class="faq-item" data-reveal data-reveal-delay="0">
+        <button class="faq-q"><span>Where do your leads come from?</span><span class="chev">▾</span></button>
+        <div class="faq-a">We generate leads through paid advertising campaigns we own and operate. We don't resell leads purchased through third-party platforms or aggregators.</div>
+      </div>
+
+      <div class="faq-item" data-reveal data-reveal-delay="60">
+        <button class="faq-q"><span>Where do you send the leads?</span><span class="chev">▾</span></button>
+        <div class="faq-a">Directly to your CRM, email, phone, or spreadsheet. However you prefer to receive them.</div>
+      </div>
+
+      <div class="faq-item" data-reveal data-reveal-delay="120">
+        <button class="faq-q"><span>How quickly are the leads delivered?</span><span class="chev">▾</span></button>
+        <div class="faq-a">Immediately. No batch sends or delays. The moment a homeowner submits, the lead is sent to your CRM so your team can follow up while interest is highest.</div>
+      </div>
+
+      <div class="faq-item" data-reveal data-reveal-delay="180">
+        <button class="faq-q"><span>How many companies receive each lead?</span><span class="chev">▾</span></button>
+        <div class="faq-a">One. Every lead you receive from us is exclusive to your business.</div>
+      </div>
+
+      <div class="faq-item" data-reveal data-reveal-delay="240">
+        <button class="faq-q"><span>What happens if a lead has bad contact information?</span><span class="chev">▾</span></button>
+        <div class="faq-a">We replace it.</div>
+      </div>
+
+      <div class="faq-item" data-reveal data-reveal-delay="300">
+        <button class="faq-q"><span>Is there a set up fee or a long term contract?</span><span class="chev">▾</span></button>
+        <div class="faq-a">No. You pay as you go and can cancel any time.</div>
+      </div>
+
+      <div class="faq-item" data-reveal data-reveal-delay="360">
+        <button class="faq-q"><span>What if I have more questions?</span><span class="chev">▾</span></button>
+        <div class="faq-a">You can email <a href="mailto:contact@demandlinkhq.com" style="color:var(--brand-blue)">contact@demandlinkhq.com</a>, text or call <a href="tel:9452153805" style="color:var(--brand-blue)">945-215-3805</a>, or fill out our form and we will get in touch with you.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var list = document.getElementById('faqList');
+  if(!list) return;
+  list.querySelectorAll('.faq-item').forEach(function(item){
+    item.querySelector('.faq-q').addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      list.querySelectorAll('.faq-item').forEach(function(x){ x.classList.remove('open'); });
+      if(!isOpen) item.classList.add('open');
+    });
+  });
+})();
+</script>
