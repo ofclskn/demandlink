@@ -1,0 +1,63 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  --brand-blue:#2563d9;
+  --brand-darker-blue:#0a1020;
+  --brand-light-gray:#b5b5b5;
+  --font-display:"Figtree",system-ui,sans-serif;
+  --font-sans:"Inter",system-ui,sans-serif;
+}
+.container{max-width:72rem;margin:0 auto;padding:0 1rem}
+footer.site{background:var(--brand-darker-blue);color:var(--brand-light-gray);border-top:1px solid rgba(255,255,255,.1);font-family:var(--font-sans)}
+footer.site .top{display:flex;flex-direction:column;gap:2.5rem;padding:3.5rem 0}
+@media(min-width:768px){footer.site .top{flex-direction:row;justify-content:space-between;align-items:flex-start}}
+footer.site h4{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:#fff;font-family:var(--font-display)}
+footer.site ul{list-style:none;margin-top:1rem;display:flex;flex-direction:column;gap:.5rem;font-size:.875rem}
+footer.site .contact-list li{display:flex;align-items:center;gap:.5rem;margin-top:.75rem}
+footer.site a{color:inherit;text-decoration:none;transition:color .2s}
+footer.site a:hover{color:#fff}
+footer.site .cols{display:flex;flex-direction:column;gap:2.5rem}
+@media(min-width:640px){footer.site .cols{flex-direction:row;gap:4rem}}
+footer.site .legal{border-top:1px solid rgba(255,255,255,.1);padding:1.5rem 0;font-size:.75rem;text-align:center}
+</style>
+
+<footer class="site">
+  <div class="container top">
+
+    <div>
+      <h4>Contact</h4>
+      <ul class="contact-list">
+        <li>📞 <a href="tel:9452153805">945-215-3805</a></li>
+        <li>✉️ <a href="mailto:omer@demandlinkhq.com">omer@demandlinkhq.com</a></li>
+        <li>📍 1 Concord Cityplace Way, Toronto</li>
+      </ul>
+    </div>
+
+    <div class="cols">
+      <div>
+        <h4>Website</h4>
+        <ul>
+          <li><a href="/#hero">Home</a></li>
+          <li><a href="/#difference">Difference</a></li>
+          <li><a href="/#process">Process</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/terms-of-service">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="container legal">© <span id="yr"></span> DemandLink. All rights reserved.</div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
