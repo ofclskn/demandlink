@@ -1,0 +1,31 @@
+<section id="contact" class="pad contact">
+  <div class="container-sm">
+
+    <div class="head" data-reveal>
+      <h2>Grow Your Pipeline<br>with DemandLink</h2>
+      <p class="micro-orange">Pay Per Lead. Cancel Anytime.</p>
+    </div>
+
+    <div class="form-card" data-reveal data-reveal-delay="120">
+      <iframe
+        src="https://api.leadconnectorhq.com/widget/form/bfnVncB2eJ4TgLzaczzY"
+        style="width:100%;border:none;border-radius:3px;display:block;min-height:744px"
+        id="inline-bfnVncB2eJ4TgLzaczzY"
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="DL Form"
+        data-height="744"
+        data-layout-iframe-id="inline-bfnVncB2eJ4TgLzaczzY"
+        data-form-id="bfnVncB2eJ4TgLzaczzY"
+        title="DL Form">
+      </iframe>
+      <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+    </div>
+
+  </div>
+</section>
