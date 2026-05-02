@@ -1,0 +1,50 @@
+<section id="difference" class="pad">
+  <div class="container">
+
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Our Difference</p>
+      <h2>Scale Your Lead Volume<br><span class="text-primary">Without Compromising Quality</span></h2>
+      <p>Lead vendors help you scale volume without higher lead costs but usually at the cost of conversion. We keep working your leads with you after handoff to help turn more of them into booked jobs.</p>
+    </div>
+
+    <div class="dl-cards">
+
+      <div class="dl-card" data-reveal data-reveal-delay="0">
+        <span class="accent-bar"></span>
+        <div class="body">
+          <div class="row">
+            <div class="icon-wrap">📞</div>
+            <h3>Higher Booking Rate</h3>
+          </div>
+          <p class="headline">Your Company Introduced on the Confirmation Page</p>
+          <p class="para">The moment a homeowner submits, they're immediately introduced to your company, your work, and what to expect next while the lead is delivered to your CRM in real time. Your team can call while the homeowner is still engaged, and when the phone rings, they recognize your name and expect the call. The result is more conversations turning into booked appointments.</p>
+        </div>
+      </div>
+
+      <div class="dl-card" data-reveal data-reveal-delay="100">
+        <span class="accent-bar"></span>
+        <div class="body">
+          <div class="row">
+            <div class="icon-wrap">📈</div>
+            <h3>Higher Close Rate</h3>
+          </div>
+          <p class="headline">More Meaningful Touchpoints on Every Lead</p>
+          <p class="para">While your team works the lead, we run a parallel email sequence that reinforces your credibility, showcasing your reviews, past work, and credentials. Every additional touchpoint that proves your quality reduces uncertainty. By the time your sales conversation happens, homeowners aren't questioning who you are. They're ready to talk about the project.</p>
+        </div>
+      </div>
+
+      <div class="dl-card" data-reveal data-reveal-delay="200">
+        <span class="accent-bar"></span>
+        <div class="body">
+          <div class="row">
+            <div class="icon-wrap">⏱️</div>
+            <h3>Shorter Sales Cycle</h3>
+          </div>
+          <p class="headline">Educational Content Guiding the Homeowner's Decision</p>
+          <p class="para">Our sequences include educational content on how to evaluate contractors, what questions to ask, and how to plan a project. By reducing uncertainty, decisions happen faster and fewer leads stall. Your team steps into conversations with homeowners who already understand the process and are closer to saying yes.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
