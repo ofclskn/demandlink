@@ -1,0 +1,27 @@
+<script>
+  /* Smooth scroll for anchor links (GHL sometimes overrides css scroll-behavior) */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var target = document.querySelector(a.getAttribute('href'));
+      if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}
+    });
+  });
+
+  /* Scroll reveal */
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var revealEls = document.querySelectorAll('[data-reveal]');
+  if(reduced){
+    revealEls.forEach(function(e){e.classList.add('in');});
+  } else {
+    revealEls.forEach(function(e){
+      var d = e.getAttribute('data-reveal-delay');
+      if(d) e.style.transitionDelay = d+'ms';
+    });
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+      });
+    },{threshold:0.15,rootMargin:'0px 0px -10% 0px'});
+    revealEls.forEach(function(e){io.observe(e);});
+  }
+</script>
